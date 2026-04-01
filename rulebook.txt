@@ -1,0 +1,78 @@
+# Agent Quest — Rule Book
+
+## Combat
+
+Combat is turn-based. Each round, a combatant can take one action.
+
+**Attack Roll:** Roll a d20. Add your strength modifier. A total of 15 or higher hits the target.
+
+**Damage:** On a successful hit, roll the weapon's damage die:
+- Fists: 1d4
+- Rusty Sword: 1d6
+- Battle Axe: 1d8
+- Warhammer: 1d10
+
+**Defense:** If attacked, the defender can attempt to dodge (d20, 15+ succeeds) to halve damage.
+
+**Critical Hit:** A natural 20 on the attack roll deals double damage.
+**Critical Miss:** A natural 1 on the attack roll means you drop your weapon or stumble.
+
+## Skill Checks
+
+When a player attempts something uncertain, they roll a d20 and add any relevant modifier.
+
+**Difficulty Levels:**
+- Easy: 10+
+- Medium: 15+
+- Hard: 18+
+- Nearly Impossible: 20 (natural only)
+
+**Common Skill Checks:**
+- Persuasion: Convince an NPC (charisma-based)
+- Stealth: Sneak past a guard or pick a pocket (dexterity-based)
+- Perception: Notice a hidden trap or eavesdrop (wisdom-based)
+- Athletics: Climb a wall, swim a river, arm wrestle (strength-based)
+- Arcana: Identify a magical effect or decipher runes (intelligence-based)
+
+## Magic
+
+Spells consume spell slots. Once all slots are used, no more spells can be cast until resting.
+
+**Available Spells:**
+- **Fireball:** Deal 3d6 fire damage to a target. Costs 1 spell slot.
+- **Heal:** Restore 2d6 HP to yourself or an ally. Costs 1 spell slot.
+- **Shield:** Add +5 to your defense for the next attack against you. Costs 1 spell slot.
+- **Lightning Bolt:** Deal 2d8 lightning damage to a target. Costs 1 spell slot.
+- **Charm:** Attempt to charm an NPC (d20, 12+ succeeds). Costs 1 spell slot.
+
+**Spell Failure:** If you cast a spell with 0 spell slots remaining, roll a d20. On a 1-10, the spell backfires and deals 1d6 damage to you.
+
+**Resting:** A short rest (in-game) restores 1 spell slot. A long rest restores all spell slots and heals 1d6 HP.
+
+## Tavern Activities
+
+Taverns are social hubs. Here are some common activities:
+
+**Ordering Drinks:**
+- Ale: 1 gold. A solid drink.
+- Fine Wine: 3 gold. Impressive, but pricey.
+- Mystery Brew: 2 gold. Roll a d6: 1-2 you feel sick (-2 HP), 3-4 nothing happens, 5-6 you feel great (+2 HP).
+
+**Arm Wrestling:**
+- Both contestants roll d20 + strength modifier.
+- Highest total wins. Ties are re-rolled.
+- Standard wager: 5 gold coins.
+
+**Gambling (Dice Game):**
+- Both players roll 2d6. Closest to 12 without going over wins.
+- Standard wager: 3 gold coins.
+
+**Gathering Information:**
+- Roll a d20 for persuasion. 12+ gets you a useful rumour. 18+ gets you a secret.
+- Buying a round for the house (+5 gold) gives +3 to your persuasion roll.
+
+## Resting and Recovery
+
+**Short Rest:** Restore 1 spell slot. Takes about an hour in-game.
+**Long Rest:** Restore all spell slots and heal 1d6 HP. Requires a safe place to sleep.
+**Potion of Healing:** Restore 2d6 HP immediately. Can be purchased at shops for 15 gold.

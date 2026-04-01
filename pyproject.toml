@@ -1,0 +1,8 @@
+[project]
+name = "agent-quest"
+version = "0.1.0"
+description = "AI-powered tabletop RPG games master - code samples for 'Build Your First AI Agent with AWS Free Tier'"
+requires-python = ">=3.10"
+dependencies = [
+    "strands-agents[ollama]",
+]
