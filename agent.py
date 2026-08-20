@@ -9,7 +9,7 @@ Requirements:
 
 Setup:
     - Configure AWS credentials (aws configure / aws sso login)
-    - Ensure Amazon Nova Lite is enabled in Amazon Bedrock
+    - Ensure Amazon Nova 2 Lite is enabled in Amazon Bedrock
 
 Usage:
     uv run agent.py
@@ -211,7 +211,7 @@ def update_player_state(
 # Agent
 # ---------------------------------------------------------------------------
 
-model = BedrockModel(model_id="us.amazon.nova-lite-v1:0")
+model = BedrockModel(model_id="us.amazon.nova-2-lite-v1:0")
 
 agent = Agent(
     model=model,

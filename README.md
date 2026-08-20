@@ -42,15 +42,20 @@ Type your actions at the `You >` prompt. Type `quit` to exit.
 
 ## Trying Different Models
 
-In `agent.py`, change the `model_id` to try different Bedrock models:
+`agent.py` uses `us.amazon.nova-2-lite-v1:0` by default. Change the `model_id`
+to try different Bedrock models:
 
 ```python
-# Amazon Nova Pro (more capable)
-model = BedrockModel(model_id="us.amazon.nova-pro-v1:0")
+# Amazon Nova Micro (cheapest, text-only)
+model = BedrockModel(model_id="us.amazon.nova-micro-v1:0")
 
 # Anthropic Claude Haiku (fast, strong reasoning)
 model = BedrockModel(model_id="us.anthropic.claude-haiku-4-5-20251001-v1:0")
 ```
+
+> **Note:** Nova 2 models are only callable through a cross-region inference
+> profile — use the `us.` prefix. The bare `amazon.nova-2-lite-v1:0` returns a
+> `ValidationException`.
 
 ## License
 
